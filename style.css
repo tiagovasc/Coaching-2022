@@ -310,6 +310,17 @@
 
 }
 
+
+#advice-imagebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#advice-image{
+    width: 250px;
+}
+
 #benefits-text{
     margin-top: 40px;
     margin-bottom: 10px;
@@ -544,10 +555,22 @@
     width: 45%;
     text-align: left;
   }
+  
   #prtext p{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#pricetext{
+    margin: 20px 0;
+    text-align: left;
+  }
+
+  #pricetext p{
       color: white;
       font-weight: 600;
-      margin-top: 20px;
       font-size: 14px;
   }
 #primage{
@@ -839,6 +862,14 @@ button{
     background-image: url(images/image\ 4.png);
     background-size:     cover;  
     text-align: center;                
+}
+#articles-text{
+    padding: 0 20px;
+}
+#articles-text p{
+    
+    color: white;
+    font-size:16px;
 }
 
 #articles h3{
@@ -1295,7 +1326,7 @@ nav{
 @media(max-width:500px){
 
       #htext h2{
-          font-size: 25px;
+          font-size: 30px;
       }
       
       
@@ -1305,13 +1336,13 @@ nav{
   }
   
   .content-table thead tr {
-      font-size: 10px;
+      font-size: 14px;
     }
   
     
   
   .content-table {
-      font-size: 10px;
+      font-size: 14px;
     }
     
     #testimonials-items .swiper-container{
@@ -1333,7 +1364,7 @@ nav{
   }
 
   .logo h3{
-      font-size: 16px;
+      font-size: 20px;
   }
 
 #services-text{
@@ -1341,32 +1372,32 @@ nav{
 }
 
 #story-text p{
-    font-size:12px;
+    font-size:16px;
 }
 
 
 #services-q h4{
-    font-size:12px;
+    font-size:16px;
 }
 
 #services-q p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
 #services-q2 h4{
 
-    font-size:16px;
+    font-size:20px;
 }
 #s-text h6{
-    font-size:12px;
+    font-size:16px;
 }
 #s-text p{
-    font-size:12px;
+    font-size:16px;
 }
 
 #s-text h5{
-    font-size:12px;
+    font-size:16px;
 
 }
 
@@ -1376,30 +1407,37 @@ nav{
 
 
 #benefits-items h4{
-    font-size:12px;
+    font-size:16px;
 
 }
 
 #benefits-text h5{
-    font-size:12px;
+    font-size:16px;
 }
 
 #benefits-text p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
 #benefits-text2 h6{
-    font-size:12px;
+    font-size:16px;
 }
 #benefits-text2 p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #prtext p{
-    font-size: 12px;
+    font-size: 16px;
 }
-
+#pricetext{
+    margin: 10px;
+}
+  #pricetext p{
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+  }
 #sign-up-items{
     padding: 10px;
 }
@@ -1407,12 +1445,12 @@ nav{
 
 
 #sign-up-text h6{
-    font-size:12px;
+    font-size:16px;
 }
 
 
 #sign-up-text p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #coaching-items{
@@ -1420,11 +1458,11 @@ nav{
 }
 
 #coaching-text h6{
-    font-size:12px;
+    font-size:16px;
 }
 
 #coaching-text p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 
