@@ -5,6 +5,7 @@
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color: #004686;
 }
 .contactme{
     width: 100%;
@@ -67,7 +68,7 @@
     margin-top: 24px;
     width: 100%;
     height: 40px;
-    border: 1px solid #0947be;
+    border: 1px solid #2f73f8;
     border-radius: 5px;
     font-size: 16px;
     display: inline-flex;
