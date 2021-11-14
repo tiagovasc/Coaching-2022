@@ -1,7 +1,7 @@
 /* Currency Start */
 const currencySelect = document.getElementsByClassName("currencySelect")[0];
 
-currencySelect.addEventListener("click", showCurrency);
+currencySelect.addEventListener("change", showCurrency);
 
 function showCurrency(event){
     switch (event.target.value) {
